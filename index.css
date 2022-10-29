@@ -1,3 +1,4 @@
+
 #header{
     display: block;
     background-color: black;
@@ -7,6 +8,9 @@
     margin: 0px;
     padding: 2px;
     text-align: center;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
     
 }
 #logo img{
@@ -17,7 +21,7 @@
 
 }
 #navbar{
- 
+ height: 80px;
     display: inline-block;
     width: 100%;
     margin: 5px;
@@ -33,10 +37,32 @@
     list-style: none;
 
 }
-#search-bar{
-    margin-left: 300px;
-    width: 300px;
+#srchicon{
+    margin: 10px;
     height: 40px;
+    width: 40px;
+
+}
+
+#login{
+    margin-left: 800px;
+}
+#search-bar{
+   border: none;
+   outline: none;
+   padding: 0px;
+    width: 0px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+ .nav:hover > #search-bar{
+    padding: 5px;
+    width: 300px;
+
+}
+#search-bar:focus{
+    outline: none;
 }
 /*#navbar ul li{
     color: white;
@@ -81,9 +107,20 @@
     bottom:0;
     right:0;
 }
+#textovr p{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
 #section2{
     margin-top: 100px;
     text-align: center;
+}
+    
+#section2 h1{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
 }
 #section3{
     display: flex;
@@ -96,13 +133,18 @@
     height: 250px;
     width: 2500px;
     margin: 15px;
+    transition: all 0.8s ease-in-out 
+}
+.box:hover{
+    transform: scale(1.4);
 }
 .box img{
     height: 200px;
     width: 200px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px rgb(203, 200, 200);
 }
+
 .box a{
     text-decoration: none;
     color: black;
@@ -120,6 +162,7 @@
 #section5{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #section5 ul { 
     display: flex;
@@ -127,6 +170,10 @@
     list-style: none;
     margin: 10px;
 
+}
+#h1{
+    text-align: center;
+    margin: auto;
 }
 #section5 ul li{
     padding: 10px;
