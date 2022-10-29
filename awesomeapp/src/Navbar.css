@@ -1,0 +1,64 @@
+.header {
+    display: block;
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.logo img {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 55px;
+    width: 55px;
+
+}
+
+.navbar {
+
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+    border-radius: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.search-bar {
+    margin-left: 300px;
+    width: 300px;
+    height: 40px;
+}
+
+/*.navbar ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}*/
+.navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
