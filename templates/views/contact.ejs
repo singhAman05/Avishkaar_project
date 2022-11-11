@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="background">
+    <div class="container">
+      <div class="screen">
+        <div class="screen-header">
+          <div class="screen-header-left">
+            <div class="screen-header-button close"></div>
+            <div class="screen-header-button maximize"></div>
+            <div class="screen-header-button minimize"></div>
+          </div>
+          <div class="screen-header-right">
+            <div class="screen-header-ellipsis"></div>
+            <div class="screen-header-ellipsis"></div>
+            <div class="screen-header-ellipsis"></div>
+          </div>
+        </div>
+        <div class="screen-body">
+          <div class="screen-body-item left">
+            <div class="app-title">
+              <span>CONTACT</span>
+              <span>US</span>
+            </div>
+            <div class="app-contact">CONTACT INFO : amanshankarsingh2001@gmail.com</div>
+          </div>
+          <div class="screen-body-item">
+            <div class="app-form">
+              <form action="/api/contact" method="post">
+              <div class="app-form-group">
+                <input name="name" class="app-form-control" placeholder="Name">
+              </div>
+              <div class="app-form-group">
+                <input name="email" class="app-form-control" placeholder="Email">
+              </div>
+              <div class="app-form-group">
+                <input name="mobile" class="app-form-control" placeholder="Contact No.">
+              </div>
+              <div class="app-form-group message">
+                <input name="message" class="app-form-control" placeholder="Your Concern">
+              </div>
+              <div class="app-form-group buttons">
+                <input type="submit" class="app-form-button" placeholder="Submit">
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

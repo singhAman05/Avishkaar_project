@@ -1,0 +1,165 @@
+#header{
+    display: block;
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    
+}
+#logo img{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 55px;
+    width: 55px;
+
+}
+#navbar{
+ 
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    
+    border-radius: 10px;
+}
+#navbar ul { 
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+#search-bar{
+    margin-left: 300px;
+    width: 300px;
+    height: 40px;
+}
+/*#navbar ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}*/
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#section1{
+   display: flex;
+  margin-top: 100px;
+  padding: 0%;
+  background-color: black;
+    
+}
+#video
+{
+    height: 550px;
+    width: 1500px;
+    border-radius: 30px;
+}
+#textovr{
+
+    position: absolute;
+    color: #fff;
+    padding: 0% 10%;
+    font-weight: 800;
+    font-size: larger;
+    z-index: 0;
+    top: 250px;;
+    left:0;
+    bottom:0;
+    right:0;
+}
+#section2{
+    margin-top: 100px;
+    text-align: center;
+}
+#section3{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    
+}
+.box{
+   
+    height: 250px;
+    width: 2500px;
+    margin: 15px;
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+#section4{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+   
+
+}
+#section5{
+    display: flex;
+    flex-direction: row;
+}
+#section5 ul { 
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+
+}
+#section5 ul li{
+    padding: 10px;
+    margin: 10px;
+
+}
+.item{
+    padding: 5px;
+    margin: 10px;
+}
+#footer{
+    display: flex;
+    background-color: grey;
+    height: 250px;
+    width: 100%;
+
+}
+.box1{
+    
+    height: 250px;
+    width: 2500px;
+    margin: 15px;
+    color: white;
+}
+#section6{
+    background-color: grey;
+    margin-top: 60px;
+}
+div1{
+    display: flex;
+}
+.video1{
+    height: 280px;
+    width: 600px;
+    border-radius: 10px;
+}

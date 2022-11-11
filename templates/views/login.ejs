@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Sign In Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <div class="wrapper login">
+        <div class="container">
+            <div class="col-left">
+                <div class="login-text">
+                    <p>Create your account.<br>For Free!</p>
+                    <a href="/signup" class="btn">Sign Up</a>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form action="/api/login" method="POST">
+                        <div class="alert" style="color: rgb(0, 255, 136);"><strong><%= alert %></strong></div>
+                        <p>
+                            <label>Email address<span>*</span></label>
+                            <input type="text" name="email" autocomplete="off" placeholder="123@gmail.com" required>
+                        </p>
+                        <p>
+                            <label>Password<span>*</span></label>
+                            <input type="password" name="pass" autocomplete="off" placeholder="Top Secret" required>
+                        </p>
+                        <p>
+                            <input type="submit" value="Sign In">
+                        </p>
+                        <p>
+                            <a href="">Forgot password?</a>
+                        </p>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

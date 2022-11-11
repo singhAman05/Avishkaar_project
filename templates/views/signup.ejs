@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <title>Sign In Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="wrapper login">
+        <div class="container">
+            <div class="col-left">
+                <div class="login-text">
+                    
+                    <h2>Welcome!</h2>
+                    <p>Already have account!!</p>
+                    <a href="/login" class="btn">Login</a>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>Sign Up</h2>
+                    <form action="/api/signup" method="POST">
+                        <p>
+                            <label>Username<span>*</span></label>
+                            <input type="text" name="name" autocomplete="off" placeholder="Username" required>
+                        </p>
+                        <p>
+                            <label>What do we call You<span>*</span></label>
+                            <input type="text" name="uname" autocomplete="off" placeholder="Batman" required>
+                        </p>
+                        <p>
+                            <label>Contact Number<span>*</span></label>
+                            <input type="number" name="num" autocomplete="off" placeholder="+91-" required>
+                        </p>
+                        <div class="alert" style="color: red;"><strong><%= email %></strong></div>
+                        <p>
+                            <label>Email address<span>*</span></label>
+                            <input type="text" name="email" autocomplete="off" placeholder="Email" required>
+                        </p>
+                        <p>
+                            <label>Address<span>*</span></label>
+                            <input type="text" name="addre" autocomplete="off" placeholder="In your heart" required>
+                        </p>
+                        <p>
+                            <label>Password<span>*</span></label>
+                            <input type="password" name="pass" autocomplete="off" placeholder="***" required>
+                        </p>
+                        <div class="alert" style="color: red;"><strong><%= alert %></strong></div>
+                        <p>
+                            <label>Confirm Password<span>*</span></label>
+                            <input type="password" name="reppass" autocomplete="off" placeholder="***" required>
+                        </p>
+                        <p>
+                            <input type="submit" value="Sign In">
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
